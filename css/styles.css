@@ -119,11 +119,12 @@ ul {
   position: absolute;
   left: 0;
   bottom: -1px;
-  background-color: #8b00ff;
+  background-color: #404bbf;
   height: 4px;
   border-radius: 2px;
   display: block;
   width: 100%;
+  color: #8b00ff;
 }
 
 .header-menu-link {
