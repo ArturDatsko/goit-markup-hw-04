@@ -114,6 +114,16 @@ ul {
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.header-menu-link {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
+}
 .current:after {
   content: "";
   position: absolute;
@@ -124,16 +134,6 @@ ul {
   border-radius: 2px;
   display: block;
   width: 100%;
-}
-
-.header-menu-link {
-  display: block;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  padding: 24px 0;
 }
 .current {
   color: #4d5ae5;
