@@ -125,9 +125,6 @@ ul {
   display: block;
   width: 100%;
 }
-.current {
-  color: #4d5ae5;
-}
 
 .header-menu-link {
   display: block;
@@ -138,6 +135,10 @@ ul {
   color: #2e2f42;
   padding: 24px 0;
 }
+.current {
+  color: #4d5ae5;
+}
+
 .header-address {
   font-style: normal;
   display: flex;
